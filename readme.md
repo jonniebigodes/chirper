@@ -1,42 +1,32 @@
-# freecodecampApiChallenges
+# Chirper
 
 
 
-This repository contains the implementation of the api challenges for freecodecamp.
-The challenges are the following
-  - Timestamp Microservice
-  - Request Header Parser Microservice
-  - URL Shortener Microservice
-  - Image Search Abstraction Layer
-  - File Metadata Microservice
+This repository contains the implementation of a pet project.
+
 
 # Methodology used
-Instead of creating a single repo for each challenge and as i'm familiar with github i condensed the api challenges in one package/repo.
-As it's not in direct contradiction of the rules and/or objective.
-In terms of development methodology i used the following:
-  - /Challenges/
-    - This folder contains the logic bits for the challenges that required some extra logic used.
-  - /src/
-    - this folder contains all the view implementation and also the routing logic used. 
-  - /src/components
-    - Inside this folder are the components i.e views used for the challenges
-  - /dist/
-    - This folder contains the release(aka build files).
-  - /uploads/
-    - This folder contains the placeholder for the File Metadata challenge upload info
+Instead of creating a single repo for each client and server a single repository was created for it, for containing the server and client.
+
+In terms of development methodology it's used the following:
+  - /chirper-client/
+    - This folder contains the implementation bits for the client side of the project.
+  - /chirper-server/
+    - this folder contains all the implementation bits for the server side of the project. 
+  
 
 
 
 ### Tech
 
 this set of challenges uses a number of open source projects to work properly:
-* [React] - Great Javascript library for Building user interfaces
+* [Electron] - Is an open-source framework developed by GitHub.It allows for the development of desktop GUI applications using the Node.js runtime
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework 
 * [Webpack] - fast packaging framework for deployment
 * [Mongodb] - Best of relational with the innovations of NOSQL
-* [Unirest] - Simple http request package
-* [Async] - Async pattern package
+* [Angular] - Great Javascript based framework for implementing either MVC or MVVM architectures.
+
 
 
 
@@ -45,7 +35,7 @@ And of course the implementation of the challenges themselves are open source wi
 
 ### Installation from source
 
-freecodecamp api  requires [Node.js](https://nodejs.org/) v4+ to run.
+chirper api  requires [Node.js](https://nodejs.org/) v4+ to run the server.
 
 Download and extract the [latest pre-built release](https://github.com/jonniebigodes/freecodecampApiChallenges/releases).
 
@@ -72,12 +62,12 @@ MIT
 
 
    
-   [git-repo-url]: <https://github.com/jonniebigodes/freecodecampApiChallenges.git>
+   [git-repo-url]: <https://github.com/jonniebigodes/chirper.git>
    [node.js]: <http://nodejs.org>
    [express]: <http://expressjs.com>
-   [React]: <https://facebook.github.io/react/>
+   [Electron]: <https://electron.atom.io/>
    [Webpack]: <https://webpack.github.io/>
    [Mongodb]: <https://www.mongodb.com/>
-   [PlGh]:  <https://github.com/jonniebigodes/freecodecampApiChallenges/tree/master/plugins/github/readme.md>
-   [Unirest]: <http://unirest.io/nodejs.html>
+   [PlGh]:  <https://github.com/jonniebigodes/chirper/tree/master/plugins/github/readme.md>
+   [Angular]: <https://angularjs.org/>
    [Async]: <https://github.com/caolan/async>
