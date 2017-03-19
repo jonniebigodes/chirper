@@ -1,0 +1,30 @@
+{
+  "name": "chirper-client",
+  "version": "1.0.0",
+  "description": "Client side of the project built with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonniebigodes/chirper.git"
+  },
+  "keywords": [
+    "electron",
+    "angular",
+    "chirp",
+    "chirp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonniebigodes/chirper/issues"
+  },
+  "homepage": "https://github.com/jonniebigodes/chirper#readme",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "eslint": "^3.18.0",
+    "eslint-config-defaults": "^9.0.0"
+  }
+}
