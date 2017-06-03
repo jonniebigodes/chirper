@@ -2,13 +2,14 @@
   "name": "chirper-server",
   "version": "1.0.0",
   "description": "backend bit of the project it will serve http requests and db(mongo) interactions",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonniebigodes/chirper"
+    "url": "git+https://github.com/jonniebigodes/chirper.git"
   },
   "keywords": [
     "mongodb",
@@ -16,6 +17,13 @@
     "express",
     "angular"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "M. Oliveira & J. Cardoso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonniebigodes/chirper/issues"
+  },
+  "homepage": "https://github.com/jonniebigodes/chirper#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
