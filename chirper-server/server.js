@@ -3,10 +3,9 @@ var express = require('express'),
   app = express(),
   port = config.SERVER_PORT;
 
-var MongoClient = require('mongodb').MongoClient;
 var DatabaseService = require('./services/DatabaseService.js');
 
-DatabaseService.testConnection(config.MONGO_URL, MongoClient);
+DatabaseService.testConnection(config.MONGO_URL);
 
 app.listen(port);
 
