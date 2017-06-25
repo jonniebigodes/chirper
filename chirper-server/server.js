@@ -4,21 +4,9 @@ var express = require('express'),
   port = config.SERVER_PORT;
 
 var MongoClient = require('mongodb').MongoClient;
+var DatabaseService = require('./services/DatabaseService.js');
 
-// check the server connection
-MongoClient.connect(config.MONGO_URL, function (err, db) {
-  if (db === null) {
-    console.log(config.MONGO_URL + " not available!");
-  } else {
-    if (err === null) {
-      console.log("Connected successfully to server");
-    } else {
-      console.log("Error connecting to server");
-    }
-    db.close();
-  }
-});
-
+DatabaseService.testConnection(config.MONGO_URL, MongoClient);
 
 app.listen(port);
 
