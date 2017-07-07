@@ -5,7 +5,7 @@ var express = require('express'),
 
 var DatabaseService = require('./services/DatabaseService.js');
 
-DatabaseService.testConnection(config.MONGO_URL);
+DatabaseService.testConnection(config.MONGO_URL + config.CHIRPER_DB);
 
 app.listen(port);
 
