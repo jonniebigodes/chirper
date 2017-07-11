@@ -17,8 +17,23 @@ In terms of development methodology i used the following:
     - Inside this folder are the shiny shiny bits of the project
   - /app/services
     - this folder contains the service logic used to glue it all together between the frontend and the backend
+  - /app/mockups
+    - conceptual vision of the ui to be implemented on the app
 
 
+### Conceptual Design of the UI
+Bellow are the ui conceptual design for this early version.
+As the project evolves so will the mockups added in here.<br  />
+The images bellow are rescaled, for a full size check inside the appropriate folder (mockups)
+The early version of the main window
+<!-- ![Main Window](mockups/chirper_v1.png) -->
+<img src="mockups/chirper_v1.png" width="512" height="512"><br  />
+Early conceptual vision of chirps<br  />
+<!-- ![Tweets Window](mockups/chirper-tweets_v1.png) -->
+<img src="mockups/chirper-tweets_v1.png" width="512" height="512"><br  />
+Early conceptual vision about the user information<br  />
+<img src="mockups/chirper-user_v1.png" width="512" height="512"><br  />
+<!--![Tweets Window](mockups/chirper-user_v1.png)-->
 
 ### Tech
 

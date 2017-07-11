@@ -37,7 +37,7 @@ And of course the implementation of the challenges themselves are open source wi
 
 chirper api  requires [Node.js](https://nodejs.org/) v4+ to run the server.
 
-Download and extract the [latest pre-built release](https://github.com/jonniebigodes/freecodecampApiChallenges/releases).
+Download and extract the [latest pre-built release](https://github.com/jonniebigodes/chirper/releases).
 
 Install the dependencies and devDependencies and start the server.
 
@@ -70,4 +70,3 @@ MIT
    [Mongodb]: <https://www.mongodb.com/>
    [PlGh]:  <https://github.com/jonniebigodes/chirper/tree/master/plugins/github/readme.md>
    [Angular]: <https://angularjs.org/>
-   [Async]: <https://github.com/caolan/async>
