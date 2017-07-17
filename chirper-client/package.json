@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Client side of the project built with electron",
   "main": "main.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "start-web": "webpack --progress --colors --watch"
   },
   "repository": {
     "type": "git",
@@ -31,9 +31,29 @@
     "electron": "^1.6.2",
     "eslint": "^3.18.0",
     "eslint-config-defaults": "^9.0.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.10.0",
+    "sass-loader": "^3.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
-    "angular": "^1.6.3"
+    "angular": "^1.6.3",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-resource": "^1.5.11",
+    "css-loader": "0.23.1",
+    "file-loader": "^0.10.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
   }
 }

@@ -1,0 +1,41 @@
+<div ng-controller="chirpImageController" layout="row">
+    <md-card>
+        <img ng-src="{{$ctrl.ImageUrl}}" class="md-card-image" alt="chirp chirp">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{$ctrl.chirpUsername}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="start center">
+          <!--<md-card-icon-actions>
+             <md-button class="md-icon-button" aria-label="Favorite">
+              <md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+            </md-button>
+            <md-button class="md-icon-button" aria-label="Share">
+              <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+            </md-button> 
+          </md-card-icon-actions>-->
+          <md-button>Action 1</md-button>
+          <md-button>Action 2</md-button>
+        </md-card-actions>
+        <md-card-content>
+          <div class="">
+              {{$ctrl.chirp}}
+          </div>
+        </md-card-content>
+        <div ng-cloak>
+            <md-card-actions layout="row" layout-align="start center">
+            <!--<md-card-icon-actions>
+                <md-button class="md-icon-button" aria-label="Favorite">
+                <md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+                </md-button>
+                <md-button class="md-icon-button" aria-label="Share">
+                <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+                </md-button> 
+            </md-card-icon-actions>-->
+            <md-button>Action 1</md-button>
+            <md-button>Action 2</md-button>
+            </md-card-actions>
+        </div>
+      </md-card>
+</div>
