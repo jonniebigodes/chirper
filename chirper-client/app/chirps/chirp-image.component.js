@@ -7,9 +7,9 @@ function chirpImageController($scope){
     self.ImageUrl='';
 
 }
-angular.module('chirperClient.chirpImageComponent')
+angular.module('chirperClient.chirpImageComponent',[])
         .component('chirpImageComponent',{
-            templateUrl:'chirp-image.template.html',
+            templateUrl:'../chirps/chirp-image.template.html',
             controller:chirpImageController
                 
             }

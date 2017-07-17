@@ -48,6 +48,7 @@
     "angular-aria": "^1.6.5",
     "angular-material": "^1.1.4",
     "angular-resource": "^1.5.11",
+    "angular-route": "^1.6.5",
     "css-loader": "0.23.1",
     "file-loader": "^0.10.0",
     "node-sass": "^3.4.2",

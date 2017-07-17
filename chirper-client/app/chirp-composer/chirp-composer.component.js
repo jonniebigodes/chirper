@@ -7,7 +7,7 @@ function chirperComposerController($scope){
 }
 angular.module('chirperClient.chirpComposer',[])
         .component('chirperComposer',{
-            templateUrl:'chirp-composer.template.html',
+            templateUrl:'../chirp-composer/chirp-composer.template.html',
             controller: chirperComposerController
         });
         

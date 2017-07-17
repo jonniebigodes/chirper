@@ -2,4 +2,8 @@
 
 angular.module('chirperClient',[require('angular-material'),
                                  require('angular-animate'),
-                                ,'../chirps-container/chirperClient.chirpList']);
+                                ,'chirperClient.chirpList',
+                                ,'chirperClient.chirpComposer',
+                                'chirperClient.chirpImageComponent',
+                                'chirperClient.chirpComponent',
+                                'chirperClient.chirpUser']);

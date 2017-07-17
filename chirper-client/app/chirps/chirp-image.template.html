@@ -3,7 +3,7 @@
         <img ng-src="{{$ctrl.ImageUrl}}" class="md-card-image" alt="chirp chirp">
         <md-card-title>
           <md-card-title-text>
-            <span class="md-headline">{{$ctrl.chirpUsername}}</span>
+            <span class="md-headline">{{$ctrl.chirp.chirpUsername}}</span>
           </md-card-title-text>
         </md-card-title>
         <md-card-actions layout="row" layout-align="start center">
@@ -20,7 +20,7 @@
         </md-card-actions>
         <md-card-content>
           <div class="">
-              {{$ctrl.chirp}}
+              {{$ctrl.chirp.chirp}}
           </div>
         </md-card-content>
         <div ng-cloak>

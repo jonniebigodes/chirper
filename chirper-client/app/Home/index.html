@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="chirperClient">
   <head>
 
     <meta charset="UTF-8">
@@ -12,10 +12,13 @@
     
      <script src="app.js"></script>
      <script src="../chirps-container/chirp-list.component.js"></script>
-    
+    <script src="../chirp-composer/chirp-composer.component.js"></script>
+    <script src="../chirps/chirp.component.js"></script>
+    <script src="../chirps/chirp-image.component.js"></script>
+    <script src="../userInformation/user-information.component.js"></script>
     <title>Chirp Chirp</title>
   </head>
-  <body ng-app="chirperClient">
-    <chir-list></chirp-list>
+  <body>
+    <chirp-List></chirp-List>
   </body>
 </html>
