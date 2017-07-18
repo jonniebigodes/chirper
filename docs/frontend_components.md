@@ -142,6 +142,13 @@ angular.element(document).ready(function () {
 });
 ```
 
+**home.html** (also applies to other views)
+```html
+<div layout="row" layout-fill layout-align="center center" class="layout-align-center-center">
+    <!--> Your HTML goes here <-->
+</div>
+```
+
 ### Changelog
 [18-07-2017]
 - Added the folder organization tips.
