@@ -18,7 +18,8 @@
 ------- ErrorInterceptor.js
 ----\views\
 -------\dialogs\
------------\chirp-composer\ (if this is the window in which you write the chirp, it should probably be a dialog, to make things simpler)
+-----------\chirp-composer\ (if this is the window in which you write the chirp, 
+                             it should probably be a dialog, to make things simpler)
 ------------- chirpComposer.html
 ------------- chirpComposer.js
 -------\chirp-container\
@@ -95,7 +96,7 @@ function translation() {
 </html>
 ```
 
-** app.js **
+**app.js**
 ```javascript
 'use strict';
 
