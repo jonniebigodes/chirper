@@ -16,7 +16,7 @@ createWindow=()=>{
   // and load the index.html of the app.
   win.loadURL(url.format({
     
-    pathname: path.join(__dirname, '/app/Home/index.html'),
+    pathname: path.join(__dirname, '/app/views/home/index.html'),
     protocol: 'file:',
     slashes: true
   }));
