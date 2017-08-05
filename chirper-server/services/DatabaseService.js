@@ -1,9 +1,7 @@
 /**
  * Handles the communication with the database
  */
-
 var MongoClient = require('mongodb').MongoClient;
-
 var _database;
 
 module.exports = {
@@ -57,14 +55,22 @@ module.exports = {
         var i, collectionsLength = collections.length;
 
         if (db !== undefined && db !== null) {
+            console.log("Creating DB with object");
+            console.log("List of Collections:");
+            console.log(collections);
             // create the collections if the DB is already defined
             for (i = 0; i < collectionsLength; i++) {
+                console.log("Creating Collection:");
+                console.log(collections[i]);
                 db.createCollection(collections[i]);
             }
         } else {
             // otherwise, connect to the database and then create the collections
+            console.log("Creating DB without object");
             MongoClient.connect(url, function (err, db) {
                 for (i = 0; i < collectionsLength; i++) {
+                    console.log("Creating Collection:");
+                    console.log(collections[i]);
                     db.createCollection(collections[i]);
                 }
                 db.close();
@@ -73,3 +79,5 @@ module.exports = {
 
     }
 }
+
+// https://www.reddit.com/r/node/comments/43ooak/reuse_mongodb_connection_properly_in_expressjs/
