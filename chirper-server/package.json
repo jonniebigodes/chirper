@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "startes6": "nodemon server_es6.js --exec babel-node",
+    "startmodulees6": "nodemon server_es6_module.js --exec babel-node",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -24,9 +26,12 @@
   },
   "homepage": "https://github.com/jonniebigodes/chirper#readme",
   "devDependencies": {
-    "nodemon": "^1.11.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "~1.0.1",
     "express": "~4.0.0",
     "mongodb": "~2.2.29",
-    "body-parser": "~1.0.1"
+    "nodemon": "^1.11.0"
   }
 }

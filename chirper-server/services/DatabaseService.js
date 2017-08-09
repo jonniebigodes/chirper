@@ -1,8 +1,9 @@
 /**
  * Handles the communication with the database
  */
-var MongoClient = require('mongodb').MongoClient;
-var _database;
+ var MongoClient = require('mongodb').MongoClient;
+ var _database;
+
 
 module.exports = {
     /**
